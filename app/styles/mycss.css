@@ -1,0 +1,354 @@
+@font-face {
+    font-family: mapsTrackFont;
+    src: url(../fonts/Montserrat-Light.otf);
+
+}
+
+
+.scrolled #fh5co-menu  {
+    display: none;
+}
+
+#fh5co-features {
+    display: none;
+}
+
+#fh5co-features-2 {
+    padding: 4em 0;
+}
+
+#fh5co-faqs {
+    padding: 4em 0;
+
+}
+
+.logoName {
+    font-family: mapsTrackFont, "Open Sans", Arial, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 600;
+}
+
+.fh5co-section-heading .fh5co-lead {
+    font-family: mapsTrackFont, "Open Sans", Arial, sans-serif;
+    font-size: 30px;
+}
+
+.fh5co-section-heading .fh5co-sub {
+    font-family: mapsTrackFont, "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.fh5co-uppercase-sm {
+    font-family: mapsTrackFont, "Open Sans", Arial, sans-serif;
+}
+
+.appFeaturesDescription {
+    font-family: mapsTrackFont, "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+}
+
+
+#fh5co-faqs .faq-accordion h3 {
+    color: #3f51b5;
+    font-size: 18px;
+}
+
+#fh5co-faqs .faq-accordion.active h3 {
+    color: #3f51b5;
+}
+
+#fh5co-faqs .faq-accordion {
+    padding: 20px;
+}
+
+#fh5co-faqs .faq-accordion .faq-accordion-icon-toggle i {
+    color: #3f51b5;
+    font-size: 18px;
+}
+
+.fh5co-section-heading {
+    margin-bottom: 3em;
+}
+
+#fh5co-footer {
+    position: absolute;
+    padding: 1em 0;
+}
+
+#fh5co-footer .container .row > div {
+    margin-bottom: 0px;
+}
+
+#fh5co-wrap {
+    margin-bottom: 60px;
+}
+
+.fh5co-copyright {
+    margin-bottom: 0px;
+}
+
+#fh5co-hero .fh5co-overlay {
+    background: none;
+}
+
+#fh5co-hero {
+    background: none;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    height: 100%;
+    height: 90vh;
+}
+
+.fh5co-nav-toggle {
+    top: 0px;
+    padding: 0px;
+}
+
+.fh5co-nav-toggle > span {
+    margin-top: 3px;
+}
+
+.comingSoon {
+    font-family: mapsTrackFont, "Open Sans", Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.imageParentLayout {
+    height: 90vh;
+    width: auto;
+    position: relative;
+}
+
+
+.fh5co-intro-img {
+   
+}
+
+.mapsTrackPhone {
+    top:0;
+    margin-top: 12vh;
+    position: absolute;
+    right: 0.5;
+}
+
+.playStoreButton {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+
+.input-group-btn:last-child > .btn {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#fh5co-hero .fh5co-intro .btn {
+    background: #3f51b5;
+}
+
+.mapsTrackButton {
+    padding-bottom: 16px;
+    color:white;
+}
+
+.mapsTrackInput {
+    color:#777;
+    background: white;
+    outline: none;
+    border: none;
+    border-color: transparent;
+    
+}
+
+
+.contentContainer {
+    position: absolute;
+    bottom: 50%;
+}
+
+.form-control {
+    border: none;
+}
+
+.btn-default {
+   
+}
+
+.btn:hover, .btn:focus, .btn:active {
+     background: #303f9f;
+}
+
+.mapsTrackHeading {
+    text-align: center;
+    color: white;
+
+}
+
+.accessCodeInput {
+    height: 45px;
+}
+
+.mobileNumberInput {
+    height: 35px;
+}
+
+.getAppButton {
+    padding: 9px;
+    background: #303f9f;
+
+}
+
+.mapsTrackInput:focus {
+    outline: none;
+    border: none;
+    border-color: transparent;
+}
+
+.getAppButton:hover {
+    cursor: pointer;
+}
+
+.searchCodeButton {
+    padding: 14px;
+}
+
+.downloadApp {
+    float: right;
+    position: relative;
+    right: 12%;
+    margin: 2px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+#fh5co-clients {
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    padding:0;
+}
+
+#fh5co-clients2 {
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    padding:0;
+}
+
+.phoneImage {
+    float: right;
+    top : 12vh;
+}
+
+.mainPhoneImage {
+    background-image: url('../images/MapsTrackPhone.png');
+    height: auto;
+    width: auto;
+}
+
+.getAppFromGooglePlayContainer {
+    display: none;
+}
+
+.getAppText {
+    color: #FFF;
+}
+
+
+.downloadApp:hover {
+    color: #FFF;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.logoName:hover {
+     color: #FFF;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+#fh5co-hero .fh5co-intro .btn:hover {
+    background: #3f51b5;
+}
+
+.btn:hover {
+    background: #3f51b5;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .phoneImage {
+        display: none;
+    }
+    
+    .downloadApp {
+        display: none;
+    }
+    
+    .enterMobileNumberContainer {
+        display: none;
+    }
+    
+    .getAppFromGooglePlayContainer {
+        display: block;
+    }
+    
+    .contentContainer {
+        bottom: 40%;
+    }
+    
+    .fh5co-nav-toggle > span {
+        display: none;
+    }
+    
+    .mapsTrackHeading {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .mapsTrackHeading {
+        font-size: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 991px) {
+    
+     .phoneImage {
+        display: none;
+    }
+    
+    .contentContainer {
+        bottom: 40%;
+    }
+    
+     .enterMobileNumberContainer {
+        display: none;
+    }
+    
+    .getAppFromGooglePlayContainer {
+        display: block;
+    }
+    
+    .downloadApp {
+        display: none;
+    }
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none !important;
+}

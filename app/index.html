@@ -1,0 +1,87 @@
+<!--
+//////////////////////////////////////////////////////
+
+DESIGNED & DEVELOPED by SNAPHY.COM
+
+//////////////////////////////////////////////////////
+-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MapsTrack &mdash; Finding event made easy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Snaphy.com" />
+    <!-- Google Webfonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css(.tmp) styles/main.css -->
+
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/icomoon.css">
+    <link rel="stylesheet" href="styles/simple-line-icons.css">
+    <link rel="stylesheet" href="styles/magnific-popup.css">
+    <link rel="stylesheet" href="styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mycss.css">
+    <script src="JsLibrary/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="JsLibrary/respond.min.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+  </head>
+
+  <body ng-app="mapstrackFrontEndApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <div >
+    <div ng-view=""></div>
+    </div>
+
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <script src="JsLibrary/jquery.min.js"></script>
+    <script src="JsLibrary/jquery.easing.1.3.js"></script>
+    <script src="JsLibrary/bootstrap.min.js"></script>
+    <script src="JsLibrary/jquery.waypoints.min.js"></script>
+    <script src="JsLibrary/jquery.magnific-popup.min.js"></script>
+    <script src="JsLibrary/owl.carousel.min.js"></script>
+    <script src="JsLibrary/jquery.countTo.js"></script>
+    <script src="JsLibrary/main.js"></script>
+
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
