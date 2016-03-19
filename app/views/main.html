@@ -11,9 +11,9 @@
               <h3 class="mapsTrackHeading">Search your location on the go</h3>
 
               <div class="input-group">
-                <input type="text" class="form-control mapsTrackInput accessCodeInput" placeholder="Enter location code here">
+                <input type="text" required ng-model="trackingCode" class="form-control mapsTrackInput accessCodeInput" placeholder="Enter location code here">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-default mapsTrackButton searchCodeButton" type="button">SEARCH</button>
+                                        <button ng-click="trackData(trackingCode)" class="btn btn-default mapsTrackButton searchCodeButton" type="button">SEARCH</button>
                                     </span>
 
               </div><!-- /input-group -->
