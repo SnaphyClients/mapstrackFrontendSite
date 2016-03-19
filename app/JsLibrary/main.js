@@ -1,4 +1,4 @@
-;(function () {
+;(function (window) {
 
 	'use strict';
 
@@ -676,7 +676,7 @@
 
 
   //Call this method in the angular directive..
-  var LoadMapstrack = function(){
+  window.LoadMapstrack = function(){
 
     magnifPopup();
     offCanvass();
@@ -705,4 +705,4 @@
   };
 
 
-}());
+}(window));
