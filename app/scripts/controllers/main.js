@@ -20,7 +20,7 @@ angular.module('mapstrackFrontEndApp')
      * @param trackingCode
        */
     $scope.trackData = function(trackingCode){
-      console.log(trackingCode);
+      //console.log(trackingCode);
       if(!trackingCode){
         return;
       }
