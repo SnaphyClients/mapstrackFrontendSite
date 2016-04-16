@@ -19,12 +19,15 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .otherwise({
+        redirectTo: '/'
+      });
+/*
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
-      .otherwise({
-        redirectTo: '/'
-      });
+*/
+
   });

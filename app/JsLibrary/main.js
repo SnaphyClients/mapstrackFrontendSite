@@ -645,7 +645,7 @@
 
 
 
-	// Document on load.
+/*	// Document on load.
 	$(function(){
 
 		magnifPopup();
@@ -672,7 +672,7 @@
 
 		navigationSection();
 
-	});
+	});*/
 
 
   //Call this method in the angular directive..

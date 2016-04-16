@@ -8,12 +8,16 @@
  * Controller of the mapstrackFrontEndApp
  */
 angular.module('mapstrackFrontEndApp')
-  .controller('MainCtrl', ["$scope", "$window", function ($scope, $window) {
+  .controller('MainCtrl', ["$scope", "$window", "$timeout", function ($scope, $window, $timeout) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+
+    $scope.faqs = faqs;
+    $scope.pageData = pageData;
+    $scope.year = new Date().getFullYear();
 
     /**
      * Get the tracking code for the data..
@@ -31,6 +35,13 @@ angular.module('mapstrackFrontEndApp')
       }
 
     };
+
+    $scope.loadPlugins = function(){
+      $timeout(function(){
+        $window.LoadMapstrack();
+      }, 10);
+    };
+
 
 
 
