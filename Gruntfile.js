@@ -331,6 +331,11 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.dist %>',
           src: ['*.html'],
           dest: '<%= yeoman.dist %>'
+        },{
+          expand: true,
+          cwd: '<%= yeoman.dist %>/views',
+          src: ['*.html'],
+          dest: '<%= yeoman.dist %>/views'
         }]
       }
     },

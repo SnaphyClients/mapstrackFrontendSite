@@ -2,125 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4949a336-0669-4655-803c-512c556b0554" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/faqsData.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/Image1.jpg" afterPath="$PROJECT_DIR$/app/images/background.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/MapsTrack1.png" afterPath="$PROJECT_DIR$/app/images/mapstrackApp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/favicon.ico" afterPath="$PROJECT_DIR$/app/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Montserrat-Light.otf" afterPath="$PROJECT_DIR$/app/fonts/Montserrat-Light.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon.eot" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon.ttf" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon.woff" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/fonts/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/fonts/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/fonts/icomoon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.eot" afterPath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.ttf" afterPath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.woff" afterPath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.woff2" afterPath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/icons/Calender.png" afterPath="$PROJECT_DIR$/app/icons/Calender.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/icons/Compass.png" afterPath="$PROJECT_DIR$/app/icons/Compass.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/icons/Destination.png" afterPath="$PROJECT_DIR$/app/icons/Destination.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/icons/Location.png" afterPath="$PROJECT_DIR$/app/icons/Location.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/MapsTrackPhone.png" afterPath="$PROJECT_DIR$/app/images/MapsTrackPhone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/playStoreTab.png" afterPath="$PROJECT_DIR$/app/images/playStoreTab.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/playStoreWeb.png" afterPath="$PROJECT_DIR$/app/images/playStoreWeb.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/yeoman.png" afterPath="$PROJECT_DIR$/app/images/yeoman.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mapstrackFrontEnd_node_modules.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mapstrackFrontEnd_node_modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mapstrackFrontEnd.iml" afterPath="$PROJECT_DIR$/.idea/mapstrackFrontEnd.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jscsrc" afterPath="$PROJECT_DIR$/.jscsrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.yo-rc.json" afterPath="$PROJECT_DIR$/.yo-rc.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/bootstrap.min.js" afterPath="$PROJECT_DIR$/app/JsLibrary/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/jquery.countTo.js" afterPath="$PROJECT_DIR$/app/JsLibrary/jquery.countTo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/app/JsLibrary/jquery.easing.1.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/app/JsLibrary/jquery.magnific-popup.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/jquery.min.js" afterPath="$PROJECT_DIR$/app/JsLibrary/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/app/JsLibrary/jquery.waypoints.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/main.js" afterPath="$PROJECT_DIR$/app/JsLibrary/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/modernizr-2.6.2.min.js" afterPath="$PROJECT_DIR$/app/JsLibrary/modernizr-2.6.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/owl.carousel.min.js" afterPath="$PROJECT_DIR$/app/JsLibrary/owl.carousel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/JsLibrary/respond.min.js" afterPath="$PROJECT_DIR$/app/JsLibrary/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower.json" afterPath="$PROJECT_DIR$/app/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-mocks/.bower.json" afterPath="$PROJECT_DIR$/app/bower_components/angular-mocks/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-mocks/README.md" afterPath="$PROJECT_DIR$/app/bower_components/angular-mocks/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-mocks/angular-mocks.js" afterPath="$PROJECT_DIR$/app/bower_components/angular-mocks/angular-mocks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-mocks/bower.json" afterPath="$PROJECT_DIR$/app/bower_components/angular-mocks/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-mocks/ngAnimateMock.js" afterPath="$PROJECT_DIR$/app/bower_components/angular-mocks/ngAnimateMock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-mocks/ngMock.js" afterPath="$PROJECT_DIR$/app/bower_components/angular-mocks/ngMock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-mocks/ngMockE2E.js" afterPath="$PROJECT_DIR$/app/bower_components/angular-mocks/ngMockE2E.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-mocks/package.json" afterPath="$PROJECT_DIR$/app/bower_components/angular-mocks/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/.bower.json" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/README.md" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/angular-route.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/angular-route.min.js.map" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/angular-route.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/bower.json" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/index.js" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/package.json" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/app/bower_components/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/README.md" afterPath="$PROJECT_DIR$/app/bower_components/angular/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/app/bower_components/angular/angular-csp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/app/bower_components/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js" afterPath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/bower.json" afterPath="$PROJECT_DIR$/app/bower_components/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/index.js" afterPath="$PROJECT_DIR$/app/bower_components/angular/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/package.json" afterPath="$PROJECT_DIR$/app/bower_components/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/app/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon.svg" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/Read Me.txt" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/Read Me.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/demo-files/demo.css" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/demo-files/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/demo-files/demo.js" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/demo-files/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/demo.html" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/fonts/icomoon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/selection.json" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/selection.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/style.css" afterPath="$PROJECT_DIR$/app/fonts/icomoon/icomoon/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.svg" afterPath="$PROJECT_DIR$/app/fonts/simple-line-icons/Simple-Line-Icons.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/robots.txt" afterPath="$PROJECT_DIR$/app/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/about.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/main.js" afterPath="$PROJECT_DIR$/app/scripts/directives/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/animate.css" afterPath="$PROJECT_DIR$/app/styles/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/icomoon.css" afterPath="$PROJECT_DIR$/app/styles/icomoon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/magnific-popup.css" afterPath="$PROJECT_DIR$/app/styles/magnific-popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/mycss.css" afterPath="$PROJECT_DIR$/app/styles/mycss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/owl.carousel.min.css" afterPath="$PROJECT_DIR$/app/styles/owl.carousel.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/owl.theme.default.min.css" afterPath="$PROJECT_DIR$/app/styles/owl.theme.default.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/simple-line-icons.css" afterPath="$PROJECT_DIR$/app/styles/simple-line-icons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/style.css" afterPath="$PROJECT_DIR$/app/styles/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/style.css.map" afterPath="$PROJECT_DIR$/app/styles/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about.html" afterPath="$PROJECT_DIR$/app/views/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/.jshintrc" afterPath="$PROJECT_DIR$/test/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/controllers/about.js" afterPath="$PROJECT_DIR$/test/spec/controllers/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/controllers/main.js" afterPath="$PROJECT_DIR$/test/spec/controllers/main.js" />
     </list>
     <ignored path="mapstrackFrontEnd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -142,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="371" column="4" selection-start-line="371" selection-start-column="4" selection-end-line="371" selection-end-column="4" />
+            <state relative-caret-position="330">
+              <caret line="320" column="11" selection-start-line="320" selection-start-column="4" selection-end-line="320" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+            <state relative-caret-position="651">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,8 +66,8 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/faqsData.js" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
       </list>
     </option>
   </component>
@@ -242,6 +126,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mapstrackFrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapstrackFrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapstrackFrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -689,12 +587,12 @@
       <option name="presentableId" value="Default" />
       <updated>1458423151036</updated>
       <workItem from="1460792127308" duration="9838000" />
-      <workItem from="1460809632710" duration="5794000" />
+      <workItem from="1460809632710" duration="6488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15632000" />
+    <option name="totallyTimeSpent" value="16326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -1037,18 +935,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.b26f90a5.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="371" column="4" selection-start-line="371" selection-start-column="4" selection-end-line="371" selection-end-column="4" />
+        <state relative-caret-position="-18345">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/views/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/vendor.d41d8cd9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        <state relative-caret-position="651">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="320" column="11" selection-start-line="320" selection-start-column="4" selection-end-line="320" selection-end-column="11" />
           <folding />
         </state>
       </provider>
