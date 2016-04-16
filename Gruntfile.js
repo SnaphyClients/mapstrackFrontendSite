@@ -405,12 +405,20 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>/icons',
           dest: '<%= yeoman.dist %>/icons',
           src: ['*.png']
-        }, {
+        },
+        {
           expand: true,
-          cwd: '.tmp/images',
+          cwd: '<%= yeoman.app %>/images',
           dest: '<%= yeoman.dist %>/images',
-          src: ['generated/*', '*.{ico,png,jpg,gif}']
-        }]
+          src: '**/*'
+        },
+        {
+        expand: true,
+        cwd: '.tmp/images',
+        dest: '<%= yeoman.dist %>/images',
+        src: ['generated/*', '*.{ico,png,jpg,gif}']
+        }
+        ]
       },
       styles: {
         expand: true,
@@ -464,6 +472,7 @@ module.exports = function (grunt) {
     grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
     grunt.task.run(['serve:' + target]);
   });
+
 
   grunt.registerTask('test', [
     'clean:server',

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4949a336-0669-4655-803c-512c556b0554" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
     </list>
     <ignored path="mapstrackFrontEnd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="478" column="12" selection-start-line="478" selection-start-column="5" selection-end-line="478" selection-end-column="12" />
+            <state relative-caret-position="570">
+              <caret line="412" column="21" selection-start-line="412" selection-start-column="21" selection-end-line="412" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -140,7 +139,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,15 +573,15 @@
       <option name="presentableId" value="Default" />
       <updated>1458423151036</updated>
       <workItem from="1460792127308" duration="9838000" />
-      <workItem from="1460809632710" duration="8592000" />
+      <workItem from="1460809632710" duration="9832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18430000" />
+    <option name="totallyTimeSpent" value="19670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -973,8 +972,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="478" column="12" selection-start-line="478" selection-start-column="5" selection-end-line="478" selection-end-column="12" />
+        <state relative-caret-position="570">
+          <caret line="412" column="21" selection-start-line="412" selection-start-column="21" selection-end-line="412" selection-end-column="21" />
           <folding />
         </state>
       </provider>
