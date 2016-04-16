@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4949a336-0669-4655-803c-512c556b0554" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-    </list>
+    <list default="true" id="4949a336-0669-4655-803c-512c556b0554" name="Default" comment="" />
     <ignored path="mapstrackFrontEnd.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -578,12 +574,12 @@
       <option name="presentableId" value="Default" />
       <updated>1458423151036</updated>
       <workItem from="1460792127308" duration="9838000" />
-      <workItem from="1460809632710" duration="11377000" />
+      <workItem from="1460809632710" duration="11418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21215000" />
+    <option name="totallyTimeSpent" value="21256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
