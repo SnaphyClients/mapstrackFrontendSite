@@ -10,7 +10,8 @@
  */
 angular
   .module('mapstrackFrontEndApp', [
-    'ngRoute'
+    'ngRoute',
+    'lbServices'
   ])
   .config(function ($routeProvider) {
     $routeProvider
