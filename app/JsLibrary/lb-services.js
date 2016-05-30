@@ -1,6 +1,6 @@
 (function(window, angular, undefined) {'use strict';
 
-var urlBase = "/api";
+var urlBase = "http://admin.mapstrack.com/api";
 var authHeader = 'authorization';
 
 /**
@@ -168,7 +168,7 @@ module.factory(
          *
          *  - `id` – `{*}` - User id
          *
-         *  - `filter` – `{object=}` - 
+         *  - `filter` – `{object=}` -
          *
          * @param {function(Array.<Object>,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -285,7 +285,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "prototype$__count__accessTokens": {
           url: urlBase + "/Users/:id/accessTokens/count",
@@ -432,7 +432,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/Users/:id/exists",
@@ -633,7 +633,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/Users/count",
@@ -693,7 +693,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -707,7 +707,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/Users/change-stream",
@@ -748,9 +748,9 @@ module.factory(
          *
          * The response body contains properties of the AccessToken created on login.
          * Depending on the value of `include` parameter, the body may contain additional properties:
-         * 
+         *
          *   - `user` - `{User}` - Data of the currently logged in user. (`include=user`)
-         * 
+         *
          *
          */
         "login": {
@@ -823,11 +823,11 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `uid` – `{string}` - 
+         *  - `uid` – `{string}` -
          *
-         *  - `token` – `{string}` - 
+         *  - `token` – `{string}` -
          *
-         *  - `redirect` – `{string=}` - 
+         *  - `redirect` – `{string=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -911,7 +911,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/Users/getSchema",
@@ -948,7 +948,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/Users/getAbsoluteSchema",
@@ -971,9 +971,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -987,7 +987,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/Users/save",
@@ -1384,7 +1384,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/AmazonImages/:id/exists",
@@ -1585,7 +1585,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/AmazonImages/count",
@@ -1645,7 +1645,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -1659,7 +1659,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/AmazonImages/change-stream",
@@ -1696,7 +1696,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/AmazonImages/getSchema",
@@ -1733,7 +1733,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/AmazonImages/getAbsoluteSchema",
@@ -1756,9 +1756,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -1772,7 +1772,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/AmazonImages/save",
@@ -1795,11 +1795,11 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `container` – `{string=}` - 
+         *  - `container` – `{string=}` -
          *
-         *  - `file` – `{string=}` - 
+         *  - `file` – `{string=}` -
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -2131,7 +2131,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/CompanyInfos/:id/exists",
@@ -2332,7 +2332,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/CompanyInfos/count",
@@ -2392,7 +2392,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -2406,7 +2406,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/CompanyInfos/change-stream",
@@ -2443,7 +2443,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/CompanyInfos/getSchema",
@@ -2480,7 +2480,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/CompanyInfos/getAbsoluteSchema",
@@ -2503,9 +2503,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -2519,7 +2519,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/CompanyInfos/save",
@@ -2726,7 +2726,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/adminEmails/getSchema",
@@ -2763,7 +2763,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/adminEmails/getAbsoluteSchema",
@@ -2786,9 +2786,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -2802,7 +2802,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/adminEmails/save",
@@ -2825,11 +2825,11 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `to` – `{*=}` - 
+         *  - `to` – `{*=}` -
          *
-         *  - `subject` – `{string=}` - 
+         *  - `subject` – `{string=}` -
          *
-         *  - `html` – `{string=}` - 
+         *  - `html` – `{string=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -2843,7 +2843,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `info` – `{string=}` - 
+         *  - `info` – `{string=}` -
          */
         "sendMail": {
           url: urlBase + "/adminEmails/sendMail",
@@ -2866,11 +2866,11 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `to` – `{*=}` - 
+         *  - `to` – `{*=}` -
          *
-         *  - `subject` – `{string=}` - 
+         *  - `subject` – `{string=}` -
          *
-         *  - `templateOptions` – `{object=}` - 
+         *  - `templateOptions` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -2884,7 +2884,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `info` – `{string=}` - 
+         *  - `info` – `{string=}` -
          */
         "sendNotice": {
           url: urlBase + "/adminEmails/sendNotice",
@@ -2907,11 +2907,11 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `to` – `{*=}` - 
+         *  - `to` – `{*=}` -
          *
-         *  - `subject` – `{string=}` - 
+         *  - `subject` – `{string=}` -
          *
-         *  - `templateOptions` – `{object=}` - 
+         *  - `templateOptions` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -2925,7 +2925,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `info` – `{string=}` - 
+         *  - `info` – `{string=}` -
          */
         "sendOrder": {
           url: urlBase + "/adminEmails/sendOrder",
@@ -2962,7 +2962,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getMailSchema": {
           url: urlBase + "/adminEmails/getMailSchema",
@@ -3103,7 +3103,7 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `container` – `{string=}` - 
+         *  - `container` – `{string=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3117,7 +3117,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `` – `{undefined=}` - 
+         *  - `` – `{undefined=}` -
          */
         "destroyContainer": {
           url: urlBase + "/containers/:container",
@@ -3137,7 +3137,7 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `container` – `{string=}` - 
+         *  - `container` – `{string=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3172,7 +3172,7 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `container` – `{string=}` - 
+         *  - `container` – `{string=}` -
          *
          * @param {function(Array.<Object>,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3208,9 +3208,9 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `container` – `{string=}` - 
+         *  - `container` – `{string=}` -
          *
-         *  - `file` – `{string=}` - 
+         *  - `file` – `{string=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3245,9 +3245,9 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `container` – `{string=}` - 
+         *  - `container` – `{string=}` -
          *
-         *  - `file` – `{string=}` - 
+         *  - `file` – `{string=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3261,7 +3261,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `` – `{undefined=}` - 
+         *  - `` – `{undefined=}` -
          */
         "removeFile": {
           url: urlBase + "/containers/:container/files/:file",
@@ -3286,9 +3286,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `req` – `{object=}` - 
+         *  - `req` – `{object=}` -
          *
-         *  - `res` – `{object=}` - 
+         *  - `res` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3302,7 +3302,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `result` – `{object=}` - 
+         *  - `result` – `{object=}` -
          */
         "upload": {
           url: urlBase + "/containers/:container/upload",
@@ -3322,13 +3322,13 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `container` – `{string=}` - 
+         *  - `container` – `{string=}` -
          *
-         *  - `file` – `{string=}` - 
+         *  - `file` – `{string=}` -
          *
-         *  - `req` – `{object=}` - 
+         *  - `req` – `{object=}` -
          *
-         *  - `res` – `{object=}` - 
+         *  - `res` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3377,7 +3377,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/containers/getSchema",
@@ -3414,7 +3414,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/containers/getAbsoluteSchema",
@@ -3437,9 +3437,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3453,7 +3453,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/containers/save",
@@ -3656,7 +3656,7 @@ module.factory(
          *
          *  - `id` – `{*}` - User id
          *
-         *  - `filter` – `{object=}` - 
+         *  - `filter` – `{object=}` -
          *
          * @param {function(Array.<Object>,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -3773,7 +3773,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "prototype$__count__accessTokens": {
           url: urlBase + "/Employees/:id/accessTokens/count",
@@ -3920,7 +3920,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/Employees/:id/exists",
@@ -4121,7 +4121,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/Employees/count",
@@ -4181,7 +4181,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -4195,7 +4195,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/Employees/change-stream",
@@ -4236,9 +4236,9 @@ module.factory(
          *
          * The response body contains properties of the AccessToken created on login.
          * Depending on the value of `include` parameter, the body may contain additional properties:
-         * 
+         *
          *   - `user` - `{User}` - Data of the currently logged in user. (`include=user`)
-         * 
+         *
          *
          */
         "login": {
@@ -4311,11 +4311,11 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `uid` – `{string}` - 
+         *  - `uid` – `{string}` -
          *
-         *  - `token` – `{string}` - 
+         *  - `token` – `{string}` -
          *
-         *  - `redirect` – `{string=}` - 
+         *  - `redirect` – `{string=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -4399,7 +4399,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/Employees/getSchema",
@@ -4436,7 +4436,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/Employees/getAbsoluteSchema",
@@ -4459,9 +4459,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -4475,7 +4475,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/Employees/save",
@@ -4514,7 +4514,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `isAdmin` – `{boolean=}` - 
+         *  - `isAdmin` – `{boolean=}` -
          */
         "isAdmin": {
           url: urlBase + "/Employees/isAdmin",
@@ -4801,7 +4801,7 @@ module.factory(
          *
          *  - `id` – `{*}` - User id
          *
-         *  - `refresh` – `{boolean=}` - 
+         *  - `refresh` – `{boolean=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -5200,7 +5200,7 @@ module.factory(
          *
          *  - `id` – `{*}` - User id
          *
-         *  - `filter` – `{object=}` - 
+         *  - `filter` – `{object=}` -
          *
          * @param {function(Array.<Object>,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -5317,7 +5317,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "prototype$__count__accessTokens": {
           url: urlBase + "/Customers/:id/accessTokens/count",
@@ -5489,7 +5489,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/Customers/:id/exists",
@@ -5690,7 +5690,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/Customers/count",
@@ -5750,7 +5750,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -5764,7 +5764,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/Customers/change-stream",
@@ -5805,9 +5805,9 @@ module.factory(
          *
          * The response body contains properties of the AccessToken created on login.
          * Depending on the value of `include` parameter, the body may contain additional properties:
-         * 
+         *
          *   - `user` - `{User}` - Data of the currently logged in user. (`include=user`)
-         * 
+         *
          *
          */
         "login": {
@@ -5880,11 +5880,11 @@ module.factory(
          *
          * @param {Object=} parameters Request parameters.
          *
-         *  - `uid` – `{string}` - 
+         *  - `uid` – `{string}` -
          *
-         *  - `token` – `{string}` - 
+         *  - `token` – `{string}` -
          *
-         *  - `redirect` – `{string=}` - 
+         *  - `redirect` – `{string=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -5968,7 +5968,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/Customers/getSchema",
@@ -6005,7 +6005,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/Customers/getAbsoluteSchema",
@@ -6028,9 +6028,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -6044,7 +6044,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/Customers/save",
@@ -6067,7 +6067,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `number` – `{string}` - 
+         *  - `number` – `{string}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -6081,7 +6081,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `code` – `{string}` - 
+         *  - `code` – `{string}` -
          */
         "requestOtp": {
           url: urlBase + "/Customers/requestOtp",
@@ -6104,11 +6104,11 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `accessToken` – `{string}` - 
+         *  - `accessToken` – `{string}` -
          *
-         *  - `code` – `{string}` - 
+         *  - `code` – `{string}` -
          *
-         *  - `number` – `{string}` - 
+         *  - `number` – `{string}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -6122,9 +6122,9 @@ module.factory(
          *
          * The response body contains properties of the AccessToken created on login.
          * Depending on the value of `include` parameter, the body may contain additional properties:
-         * 
+         *
          *   - `user` - `{User}` - Data of the currently logged in user. (`include=user`)
-         * 
+         *
          *
          */
         "loginWithCode": {
@@ -6148,7 +6148,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `filter` – `{object}` - 
+         *  - `filter` – `{object}` -
          *
          * @param {function(Array.<Object>,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -6184,7 +6184,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `accessToken` – `{string}` - 
+         *  - `accessToken` – `{string}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -6198,9 +6198,9 @@ module.factory(
          *
          * The response body contains properties of the AccessToken created on login.
          * Depending on the value of `include` parameter, the body may contain additional properties:
-         * 
+         *
          *   - `user` - `{User}` - Data of the currently logged in user. (`include=user`)
-         * 
+         *
          *
          */
         "loginWithGoogle": {
@@ -6224,7 +6224,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `external_access_token` – `{string}` - 
+         *  - `external_access_token` – `{string}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -6238,9 +6238,9 @@ module.factory(
          *
          * The response body contains properties of the AccessToken created on login.
          * Depending on the value of `include` parameter, the body may contain additional properties:
-         * 
+         *
          *   - `user` - `{User}` - Data of the currently logged in user. (`include=user`)
-         * 
+         *
          *
          */
         "loginWithFb": {
@@ -6515,7 +6515,7 @@ module.factory(
          *
          *  - `id` – `{*}` - User id
          *
-         *  - `refresh` – `{boolean=}` - 
+         *  - `refresh` – `{boolean=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -6710,7 +6710,7 @@ module.factory(
          *
          *  - `id` – `{*}` - User id
          *
-         *  - `filter` – `{object=}` - 
+         *  - `filter` – `{object=}` -
          *
          * @param {function(Array.<Object>,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -6760,7 +6760,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         R.track.count = function() {
           var TargetResource = $injector.get("Track");
@@ -7011,7 +7011,7 @@ module.factory(
          *
          *  - `id` – `{*}` - User id
          *
-         *  - `refresh` – `{boolean=}` - 
+         *  - `refresh` – `{boolean=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -7353,7 +7353,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/FacebookAccessTokens/:id/exists",
@@ -7554,7 +7554,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/FacebookAccessTokens/count",
@@ -7614,7 +7614,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -7628,7 +7628,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/FacebookAccessTokens/change-stream",
@@ -7665,7 +7665,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/FacebookAccessTokens/getSchema",
@@ -7702,7 +7702,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/FacebookAccessTokens/getAbsoluteSchema",
@@ -7725,9 +7725,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -7741,7 +7741,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/FacebookAccessTokens/save",
@@ -7934,7 +7934,7 @@ module.factory(
          *
          *  - `id` – `{*}` - PersistedModel id
          *
-         *  - `refresh` – `{boolean=}` - 
+         *  - `refresh` – `{boolean=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -8149,7 +8149,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/EmployeeDetails/:id/exists",
@@ -8350,7 +8350,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/EmployeeDetails/count",
@@ -8410,7 +8410,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -8424,7 +8424,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/EmployeeDetails/change-stream",
@@ -8461,7 +8461,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/EmployeeDetails/getSchema",
@@ -8498,7 +8498,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/EmployeeDetails/getAbsoluteSchema",
@@ -8521,9 +8521,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -8537,7 +8537,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/EmployeeDetails/save",
@@ -8744,7 +8744,7 @@ module.factory(
          *
          *  - `id` – `{*}` - PersistedModel id
          *
-         *  - `refresh` – `{boolean=}` - 
+         *  - `refresh` – `{boolean=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -9092,7 +9092,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/Tracks/:id/exists",
@@ -9293,7 +9293,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/Tracks/count",
@@ -9353,7 +9353,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -9367,7 +9367,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/Tracks/change-stream",
@@ -9404,7 +9404,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/Tracks/getSchema",
@@ -9441,7 +9441,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/Tracks/getAbsoluteSchema",
@@ -9464,9 +9464,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -9480,7 +9480,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/Tracks/save",
@@ -9760,7 +9760,7 @@ module.factory(
          *
          *  - `id` – `{*}` - PersistedModel id
          *
-         *  - `refresh` – `{boolean=}` - 
+         *  - `refresh` – `{boolean=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -9796,7 +9796,7 @@ module.factory(
          *
          *  - `id` – `{*}` - PersistedModel id
          *
-         *  - `refresh` – `{boolean=}` - 
+         *  - `refresh` – `{boolean=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -9993,7 +9993,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/LastUpdatedLocations/:id/exists",
@@ -10194,7 +10194,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/LastUpdatedLocations/count",
@@ -10254,7 +10254,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -10268,7 +10268,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/LastUpdatedLocations/change-stream",
@@ -10305,7 +10305,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/LastUpdatedLocations/getSchema",
@@ -10342,7 +10342,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/LastUpdatedLocations/getAbsoluteSchema",
@@ -10365,9 +10365,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -10381,7 +10381,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/LastUpdatedLocations/save",
@@ -10574,7 +10574,7 @@ module.factory(
          *
          *  - `id` – `{*}` - PersistedModel id
          *
-         *  - `refresh` – `{boolean=}` - 
+         *  - `refresh` – `{boolean=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -10817,7 +10817,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/EventTypes/:id/exists",
@@ -11018,7 +11018,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/EventTypes/count",
@@ -11078,7 +11078,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -11092,7 +11092,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/EventTypes/change-stream",
@@ -11129,7 +11129,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/EventTypes/getSchema",
@@ -11166,7 +11166,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/EventTypes/getAbsoluteSchema",
@@ -11189,9 +11189,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -11205,7 +11205,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/EventTypes/save",
@@ -11387,7 +11387,7 @@ module.factory(
          *
          *  - `id` – `{*}` - PersistedModel id
          *
-         *  - `filter` – `{object=}` - 
+         *  - `filter` – `{object=}` -
          *
          * @param {function(Array.<Object>,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -11437,7 +11437,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         R.tracks.count = function() {
           var TargetResource = $injector.get("Track");
@@ -11829,7 +11829,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/applications/:id/exists",
@@ -12030,7 +12030,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/applications/count",
@@ -12090,7 +12090,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -12104,7 +12104,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/applications/change-stream",
@@ -12141,7 +12141,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/applications/getSchema",
@@ -12178,7 +12178,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/applications/getAbsoluteSchema",
@@ -12201,9 +12201,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -12217,7 +12217,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/applications/save",
@@ -12641,7 +12641,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/installations/:id/exists",
@@ -12842,7 +12842,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/installations/count",
@@ -12902,7 +12902,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -12916,7 +12916,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/installations/change-stream",
@@ -12953,7 +12953,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/installations/getSchema",
@@ -12990,7 +12990,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/installations/getAbsoluteSchema",
@@ -13013,9 +13013,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -13029,7 +13029,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/installations/save",
@@ -13346,7 +13346,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `exists` – `{boolean=}` - 
+         *  - `exists` – `{boolean=}` -
          */
         "exists": {
           url: urlBase + "/notifications/:id/exists",
@@ -13547,7 +13547,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `count` – `{number=}` - 
+         *  - `count` – `{number=}` -
          */
         "count": {
           url: urlBase + "/notifications/count",
@@ -13607,7 +13607,7 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `options` – `{object=}` - 
+         *  - `options` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -13621,7 +13621,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `changes` – `{ReadableStream=}` - 
+         *  - `changes` – `{ReadableStream=}` -
          */
         "createChangeStream": {
           url: urlBase + "/notifications/change-stream",
@@ -13658,7 +13658,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/notifications/getSchema",
@@ -13695,7 +13695,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/notifications/getAbsoluteSchema",
@@ -13718,9 +13718,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -13734,7 +13734,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/notifications/save",
@@ -13978,7 +13978,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getSchema": {
           url: urlBase + "/Push/getSchema",
@@ -14015,7 +14015,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          */
         "getAbsoluteSchema": {
           url: urlBase + "/Push/getAbsoluteSchema",
@@ -14038,9 +14038,9 @@ module.factory(
          *
          * @param {Object} postData Request data.
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          *
-         *  - `schema` – `{object=}` - 
+         *  - `schema` – `{object=}` -
          *
          * @param {function(Object,Object)=} successCb
          *   Success callback with two arguments: `value`, `responseHeaders`.
@@ -14054,7 +14054,7 @@ module.factory(
          *
          * Data properties:
          *
-         *  - `data` – `{object=}` - 
+         *  - `data` – `{object=}` -
          */
         "save": {
           url: urlBase + "/Push/save",
