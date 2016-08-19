@@ -44,7 +44,7 @@ angular.module('mapstrackFrontEndApp')
             if(trackingCode.trim() !== ""){
               hideNotification();
               //Now redirect to another page..
-              return $window.location.href = 'track/' + trackingCode;
+              return $window.location.href = $window.location.href + '/track/' + trackingCode;
             }
           }
         }
