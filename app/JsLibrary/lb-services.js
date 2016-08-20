@@ -1,6 +1,6 @@
 (function(window, angular, undefined) {'use strict';
 
-var urlBase = "http://admin.mapstrack.com/api";
+var urlBase = "https://admin.mapstrack.com/api";
 var authHeader = 'authorization';
 
 /**

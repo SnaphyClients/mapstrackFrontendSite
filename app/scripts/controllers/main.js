@@ -31,8 +31,19 @@ angular.module('mapstrackFrontEndApp')
       hideNotification();
       displayLoading();
       var filter = {
-        where:{
-          or:[{uniqueCode:trackingCode, "status": "allow"}, {locationId: trackingCode, "isPublic": "public", "status": "allow"}]
+        where:
+        {
+          or:
+          [
+            { 
+              uniqueCode:trackingCode, "status": "allow"
+            }, 
+            {
+              locationId: trackingCode, 
+              "isPublic": "public", 
+              "status": "allow"
+            }
+          ]
         }
       };
       Track.findOne({
@@ -41,11 +52,9 @@ angular.module('mapstrackFrontEndApp')
         if(value){
           if(value.uniqueCode){
             var trackingCode = value.uniqueCode;
-            if(trackingCode.trim() !== ""){
               hideNotification();
               //Now redirect to another page..
-              return $window.location.href = $window.location.href + '/track/' + trackingCode;
-            }
+              return $window.location.href = 'https://admin.mapstrack.com/track/' + value.uniqueCode;
           }
         }
 
