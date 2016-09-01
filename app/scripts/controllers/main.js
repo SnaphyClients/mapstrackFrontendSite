@@ -54,7 +54,7 @@ angular.module('mapstrackFrontEndApp')
             var trackingCode = value.uniqueCode;
               hideNotification();
               //Now redirect to another page..
-              return $window.location.href = 'https://admin.mapstrack.com/track/' + value.uniqueCode;
+              return $window.location.href = 'https://mapstrack.com/track/' + value.uniqueCode;
           }
         }
 
