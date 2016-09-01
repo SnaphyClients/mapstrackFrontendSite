@@ -29,6 +29,9 @@ angular.module('mapstrackFrontEndApp')
        */
     $scope.trackData = function(trackingCode){
       hideNotification();
+      if(!trackingCode){
+        return;
+      }
       displayLoading();
       var filter = {
         where:
