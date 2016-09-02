@@ -47,11 +47,11 @@
             <div id="fh5co-clients" class="enterMobileNumberContainer">
               <div class="container">
                 <div class="row text-center">
-                  <h5 class="">Get MapsTrack App</h5>
+                  <p  class="shareAppLinkMessage">{{shareLink.message}}</p>
                   <div class="input-group col-md-4 col-md-offset-4">
-                    <input type="text" class="form-control mapsTrackInput mobileNumberInput" placeholder="Enter your mobile number">
+                    <input type="text" ng-model="shareLink.mobileNumber" class="form-control mapsTrackInput mobileNumberInput" placeholder="Enter your mobile number">
                         <span class="input-group-btn">
-                            <button class="btn btn-default mapsTrackButton getAppButton" type="button">GET APP</button>
+                            <button ng-click="getApp(shareLink.mobileNumber)" class="btn btn-default mapsTrackButton getAppButton" type="button">GET APP</button>
                         </span>
                   </div>
                 </div>

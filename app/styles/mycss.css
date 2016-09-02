@@ -226,6 +226,13 @@
     text-decoration: none;
 }
 
+.shareAppLinkMessage{
+    font-size: 12px !important;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 26px;
+}
+
 
 #fh5co-clients {
     width: 100%;

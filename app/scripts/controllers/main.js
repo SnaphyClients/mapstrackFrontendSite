@@ -8,7 +8,7 @@
  * Controller of the mapstrackFrontEndApp
  */
 angular.module('mapstrackFrontEndApp')
-  .controller('MainCtrl', ["$scope", "$window", "$timeout", "Track", function ($scope, $window, $timeout, Track) {
+  .controller('MainCtrl', ["$scope", "$window", "$timeout", "Track", "$http", function ($scope, $window, $timeout, Track, $http) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -109,6 +109,48 @@ angular.module('mapstrackFrontEndApp')
       $(id).alert('close')
     };
 
+
+    $scope.shareLink = {};
+
+    //SMS download link..
+    $scope.getApp = function(number){
+      if(!number){
+        return;
+      }
+
+      number = number.trim();
+      if(!number){
+        return;
+      }
+
+
+      $http({
+        method: 'POST',
+        url: 'https://admin.mapstrack.com/admin/api/Customers/sendAppLink',
+        data:{
+          number: number
+        },
+      }).then(function successCallback(response) {
+          // this callback will be called asynchronously
+          // when the response is available
+        }, function errorCallback(response) {
+          // called asynchronously if an error occurs
+          // or server returns response with an error status.
+          $scope.shareLink.message = "Network problem! Try later.";
+        });
+
+
+      //Clear the number
+      $scope.shareLink.mobileNumber = "";
+
+      //display message..
+      $scope.shareLink.message = "Download link send to " + number;
+
+      $timeout(function(){
+        $scope.shareLink.message = "";
+      }, 5000);
+
+    };
 
 
 
