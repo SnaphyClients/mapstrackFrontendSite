@@ -126,13 +126,15 @@ angular.module('mapstrackFrontEndApp')
 
       $http({
         method: 'POST',
-        url: 'https://admin.mapstrack.com/admin/api/Customers/sendAppLink',
+        //url: 'https://admin.mapstrack.com/api/Customers/sendAppLink',
+        url: 'http://localhost:3000/api/Customers/sendAppLink',
         data:{
           number: number
         },
       }).then(function successCallback(response) {
           // this callback will be called asynchronously
           // when the response is available
+          //console.log("Done");
         }, function errorCallback(response) {
           // called asynchronously if an error occurs
           // or server returns response with an error status.
