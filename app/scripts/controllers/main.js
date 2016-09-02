@@ -126,8 +126,7 @@ angular.module('mapstrackFrontEndApp')
 
       $http({
         method: 'POST',
-        //url: 'https://admin.mapstrack.com/api/Customers/sendAppLink',
-        url: 'http://localhost:3000/api/Customers/sendAppLink',
+        url: 'https://admin.mapstrack.com/api/Customers/sendAppLink',
         data:{
           number: number
         },
