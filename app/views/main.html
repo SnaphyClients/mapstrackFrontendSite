@@ -35,25 +35,29 @@
                   </div>
                 </div>
               </div>
-              <div class="input-group">
-                <input type="text" required ng-model="trackingCode" class="form-control mapsTrackInput accessCodeInput" placeholder="Enter location unique code or location Id to track">
-                    <span class="input-group-btn">
-                        <button ng-click="trackData(trackingCode)" style="cursor: pointer" class="btn btn-default mapsTrackButton searchCodeButton" type="button">SEARCH</button>
-                    </span>
-              </div><!-- /input-group -->
+              <form>
+                <div class="input-group">
+                  <input type="text" required ng-model="trackingCode" class="form-control mapsTrackInput accessCodeInput" placeholder="Enter location unique code or location Id to track">
+                      <span class="input-group-btn">
+                          <input type="submit" ng-click="trackData(trackingCode)" style="cursor: pointer" class="btn btn-default mapsTrackButton searchCodeButton">SEARCH</input>
+                      </span>
+                </div><!-- /input-group -->
+              </form>
               
 
             </div><!-- /.col-lg-6 -->
             <div id="fh5co-clients" class="enterMobileNumberContainer">
               <div class="container">
                 <div class="row text-center">
-                  <p  class="shareAppLinkMessage">{{shareLink.message}}</p>
-                  <div class="input-group col-md-4 col-md-offset-4">
-                    <input type="text" ng-model="shareLink.mobileNumber" class="form-control mapsTrackInput mobileNumberInput" placeholder="Enter your mobile number">
-                        <span class="input-group-btn">
-                            <button ng-click="getApp(shareLink.mobileNumber)" class="btn btn-default mapsTrackButton getAppButton" type="button">GET APP</button>
-                        </span>
-                  </div>
+                  <form>
+                    <p  class="shareAppLinkMessage">{{shareLink.message}}</p>
+                    <div class="input-group col-md-4 col-md-offset-4">
+                      <input type="text" ng-model="shareLink.mobileNumber" class="form-control mapsTrackInput mobileNumberInput" placeholder="Enter your mobile number">
+                          <span class="input-group-btn">
+                            <input ng-click="getApp(shareLink.mobileNumber)" class="btn btn-default mapsTrackButton getAppButton" type="submit">GET APP</input>
+                          </span>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
