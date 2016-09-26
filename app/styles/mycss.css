@@ -365,3 +365,18 @@ textarea:focus,
 button:focus {
     outline: none !important;
 }
+
+
+
+/* Adding loading bar inside input.. */
+.loading {    
+    background-color: #ffffff;
+    background-image: url("http://loadinggif.com/images/image-selection/3.gif");
+    background-size: 25px 25px;
+    background-position:right center;
+    background-repeat: no-repeat;
+}
+
+
+
+

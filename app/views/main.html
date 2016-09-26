@@ -37,7 +37,7 @@
               </div>
               <form>
                 <div class="input-group">
-                  <input type="text" required ng-model="trackingCode" class="form-control mapsTrackInput accessCodeInput" placeholder="Enter location unique code or location Id to track">
+                  <input type="text" required ng-model="trackingCode" class="form-control mapsTrackInput accessCodeInput" ng-class="{'loading': notify.loading}" placeholder="Enter location unique code or location Id to track">
                       <span class="input-group-btn">
                           <input type="submit" ng-click="trackData(trackingCode)" style="cursor: pointer" class="btn btn-default mapsTrackButton searchCodeButton">SEARCH</input>
                       </span>

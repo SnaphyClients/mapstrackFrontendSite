@@ -21,7 +21,9 @@ angular.module('mapstrackFrontEndApp')
     $scope.errorLocation = false;
 
     //Initializing notify type message for disaplying notices.
-    $scope.notify = {};
+    $scope.notify = {
+      loading: false
+    };
 
     /**
      * Get the tracking code for the data..
@@ -75,16 +77,20 @@ angular.module('mapstrackFrontEndApp')
 
 
     var displayLoading = function(){
-      $scope.errorLocation = true;
+      $scope.notify.loading = true;
+
+      /*$scope.errorLocation = true;
       //Show notification..
       $scope.notify.errorTypeMessage = false;
       //Message in bold
       $scope.notify.strong = "Loading..";
-      $scope.notify.message = "";
+      $scope.notify.message = "";*/
     };
 
 
     var displayError = function(){
+      $scope.notify.loading = false;
+      
       $scope.errorLocation = true;
       //Show notification..
       $scope.notify.errorTypeMessage = true;
@@ -145,7 +151,7 @@ angular.module('mapstrackFrontEndApp')
       $scope.shareLink.mobileNumber = "";
 
       //display message..
-      $scope.shareLink.message = "Download link send to " + number;
+      $scope.shareLink.message = "Download link send to mobile number";
 
       $timeout(function(){
         $scope.shareLink.message = "";

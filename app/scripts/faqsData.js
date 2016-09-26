@@ -5,15 +5,15 @@ var faqs = [
     "active": true
   },
   {
-    "question":"What is difference between events and location",
+    "question":"What is the difference between Event and Location",
     "description":"Locations are your unique address which a user create for inviting someone at their place, it may be shop, house, office while events are those location who have very specific purpose and expiry date."
   },
   {
-    "question":"How can I share my location to friends",
+    "question":"How can I share my location with friends",
     "description":"For sharing the location just add friends from your contact list and it will automatically shared to your friend, If your friend has mapstrack app then we will send a notification that \"an event has been shared with you\" while if your friend doesn't have app we will send a sms with access code with that he can reach you."
   },
   {
-    "question":"Is am I able to see my friends location",
+    "question":"Can I see my Friends Location",
     "description":"Yes, if your friend has added you for seeing his location continuously then you can see his location in the share section of the Mapstrack app. "
   },
   {
