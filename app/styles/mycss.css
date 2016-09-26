@@ -371,7 +371,7 @@ button:focus {
 /* Adding loading bar inside input.. */
 .loading {    
     background-color: #ffffff;
-    background-image: url("http://loadinggif.com/images/image-selection/3.gif");
+    background-image: url("/images/loading.gif");
     background-size: 25px 25px;
     background-position:right center;
     background-repeat: no-repeat;
