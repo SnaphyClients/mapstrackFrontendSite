@@ -69,8 +69,8 @@ angular.module('mapstrackFrontEndApp')
         hideNotification();
         //else show error message
         displayError();
-        console.error("Error fetching location Id or unique code");
-        console.error(err);
+        //console.error("Error fetching location Id or unique code");
+        //console.error(err);
       });
 
     };
