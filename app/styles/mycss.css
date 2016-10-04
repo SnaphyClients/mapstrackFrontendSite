@@ -378,5 +378,12 @@ button:focus {
 }
 
 
+.closeButton{
+    padding-top: 5px;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+
 
 

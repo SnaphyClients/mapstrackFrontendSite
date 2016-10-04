@@ -31,6 +31,7 @@
               <div class="alert-box-container">
                 <div class="alert-box" ng-if="errorLocation">
                   <div id="notify" ng-click="closeAlert('#notify')" style="cursor:pointer" ng-class="{'alert-success': !notify.errorTypeMessage, 'alert-warning': notify.errorTypeMessage}" class="alert  alert-dismissible" role="alert">
+                    <a class="close closeButton" ng-click="close()" data-dismiss="alert" aria-label="close">&times;</a>
                     <strong>{{notify.strong}}</strong> {{ notify.message}}
                   </div>
                 </div>
